@@ -1,0 +1,21 @@
+<div>
+  <div>
+    <h3 class="repository-name">
+      <a [href]="repository.html_url" target="_blank">
+        {{ repository.name }}
+      </a>
+    </h3>
+  </div>
+  
+  <div>
+    <a [href]="repository.html_url" target="_blank" class="repository-url">
+      {{ repository.html_url }}
+    </a>
+  </div>
+
+  <div>
+    <span class="repository-description">
+      {{ repository.description | decrease }}
+    </span>
+  </div>
+</div>

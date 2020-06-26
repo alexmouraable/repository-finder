@@ -1,0 +1,26 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    flex: 1;
+    padding: 20px 30px;
+}
+
+.repository-count-container {
+    margin-bottom: 20px;
+}
+
+.paginator-container {
+    margin-top: 20px;
+}
+
+.no-result-container > p {
+    margin-bottom: 15px;
+}
+
+.no-result-container > ul {
+    list-style-position: inside;
+}

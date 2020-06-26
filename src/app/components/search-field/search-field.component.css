@@ -1,0 +1,20 @@
+.search-field-container {
+    align-content: stretch;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    display: flex;
+}
+
+.field {
+    border: none;
+    padding: 5px;
+    padding-inline-start: 20px;
+    width: 100%;
+}
+
+.button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}

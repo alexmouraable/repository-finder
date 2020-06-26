@@ -1,0 +1,10 @@
+<div>
+  <form #searchForm (ngSubmit)="goToSearchComponent()">
+    <div class="search-field-container">
+      <input class="field" placeholder="Search repository..." name="repositoryName" [autofocus]="isFocused" [(ngModel)]="repositoryName">
+      <button class="button">
+        <img src="../../../assets/images/search-icon.png">
+      </button>
+    </div>
+  </form>
+</div>

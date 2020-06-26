@@ -1,0 +1,22 @@
+.repository-name {
+    color: #1a0dab;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.repository-name > a, .repository-url {
+    text-decoration: none;
+}
+
+.repository-name:active > a {
+    color: #1a0dab;
+}
+
+.repository-url {
+    color: #006621;
+}
+
+.repository-description {
+    color: #545454;
+    font-size: 0.8em;
+}

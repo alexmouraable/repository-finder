@@ -1,0 +1,27 @@
+.general-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 100%;
+}
+
+.logo-container {
+    margin-bottom: 30px;
+}
+
+/* Extra Small e Small */
+@media (max-width: 767px) {
+    .research-field-container {
+        width: 100%;
+    }
+}
+
+/* Medium, Large e Extra Large*/
+@media (min-width: 768px) {
+    .research-field-container {
+        width: 600px;
+    }
+}

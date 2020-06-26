@@ -1,0 +1,24 @@
+<div class="paginator">
+  <div class="button-paginator-container">
+    <ng-container *ngIf="previousPage; else noPreviousPage">
+      <button class="button-paginator" (click)="issueChangedPage(previousPage)">
+        &#8592; Previous
+      </button>
+    </ng-container>
+  </div>
+  <div class="button-paginator-container">
+    <ng-container *ngIf="nextPage; else noNextPage">
+      <button class="button-paginator" (click)="issueChangedPage(nextPage)">
+        Next &#8594;
+      </button>
+    </ng-container>
+  </div>
+</div>
+
+<ng-template #noPreviousPage>
+  <span class="disabled">&#8592; Previous</span>
+</ng-template>
+
+<ng-template #noNextPage>
+  <span class="disabled">Next &#8594;</span>
+</ng-template>

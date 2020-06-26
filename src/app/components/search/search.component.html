@@ -1,0 +1,34 @@
+<div class="search">
+    <app-search-header></app-search-header>
+
+    <main>
+        <ng-container *ngIf="repositoriesPage.total_count > 0; then searchResult else noResult"></ng-container>
+    </main>
+
+    <app-search-footer></app-search-footer>
+</div>
+
+<ng-template #searchResult>
+    <div class="search-result-container">
+        <div class="repository-count-container">
+            <app-repository-count [repository-count]="repositoriesPage.total_count"></app-repository-count>
+        </div>
+
+        <app-repository-list [repositories]="repositoriesPage.items"></app-repository-list>
+
+        <div class="paginator-container">
+            <app-paginator [previous-page]="repositoriesPage.previousPageNumber" [next-page]="repositoriesPage.nextPageNumber" (changed-page)="changePage($event)"></app-paginator>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #noResult>
+    <div class="no-result-container">
+        <p>There are no matching repositories!</p>
+        <p>Suggestions:</p>
+        <ul>
+            <li>Make sure the words are correct.</li>
+            <li>Use keywords.</li>
+        </ul>
+    </div>
+</ng-template>
