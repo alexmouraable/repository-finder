@@ -4,6 +4,10 @@ footer {
     padding: 20px 30px;
 }
 
+.copyright-container {
+    text-align: center;
+}
+
 .copyright {
     color: #9c9c9c;
 }
