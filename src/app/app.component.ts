@@ -8,7 +8,6 @@ import { NavigationStart, NavigationEnd, Event, Router } from "@angular/router";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-
   constructor(private slimLoadingBarService: SlimLoadingBarService, private router: Router) { }
 
   ngOnInit(): void {
@@ -22,5 +21,4 @@ export class AppComponent implements OnInit {
       }
     });
   }
-
 }

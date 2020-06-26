@@ -7,7 +7,5 @@ import { Repository } from 'src/app/models/repository.model';
   styleUrls: ['./repository-list.component.css']
 })
 export class RepositoryListComponent {
-
   @Input() repositories: Repository[];
-
 }

@@ -11,9 +11,8 @@ import { RepositoryFilter } from '../models/repository-filter.model';
     providedIn: "root"
 })
 export class RepositoriesPageResolver implements Resolve<Page<Repository>> {
-
     constructor(private repositoryService: RepositoryService) { }
-
+    
     resolve(ActivatedRouteSnapshot: ActivatedRouteSnapshot): Observable<Page<Repository>> {
         const repositoryName: string = ActivatedRouteSnapshot.queryParams.repositoryName;
         const perPage: string = "10";
@@ -30,5 +29,4 @@ export class RepositoriesPageResolver implements Resolve<Page<Repository>> {
 
         return this.repositoryService.getAll(repositoryFilter, pageable);
     }
-
 }

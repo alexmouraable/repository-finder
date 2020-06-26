@@ -4,7 +4,6 @@ import { Pipe, PipeTransform } from '@angular/core';
   name: 'decrease'
 })
 export class DecreasePipe implements PipeTransform {
-
   transform(value: string): string {
     let decreasedValue: string = value;
 
@@ -14,5 +13,4 @@ export class DecreasePipe implements PipeTransform {
 
     return decreasedValue;
   }
-
 }

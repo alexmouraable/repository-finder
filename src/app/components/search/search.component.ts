@@ -18,7 +18,6 @@ export class SearchComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.repositoriesResolverSubscription = this.activatedRoute.data.subscribe((data: { repositoriesPage: Page<Repository> }) => {
       this.repositoriesPage = data.repositoriesPage;
-      console.log(this.repositoriesPage);
     });
   }
 

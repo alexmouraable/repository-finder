@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-repository-count',
@@ -6,7 +6,5 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./repository-count.component.css']
 })
 export class RepositoryCountComponent {
-
   @Input("repository-count") repositoryCount: number;
-
 }
