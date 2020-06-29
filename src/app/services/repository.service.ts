@@ -31,8 +31,8 @@ export class RepositoryService {
     }).pipe(
       map(httpResponse => {
         const headerLink = parse(httpResponse.headers.get("link"));
-        const previousPageNumber: number = headerLink.prev != null ? headerLink.prev.page : undefined;
-        const nextPageNumber: number = headerLink.next != null ? headerLink.next.page : undefined;
+        const previousPageNumber: number = (headerLink && headerLink.prev) ? headerLink.prev.page : undefined;
+        const nextPageNumber: number = (headerLink && headerLink.next) ? headerLink.next.page : undefined;
 
         return {
           total_count: httpResponse.body["total_count"],
