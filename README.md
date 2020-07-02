@@ -1,27 +1,45 @@
-# RepositoryFinder
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+<h1 align="center">
+  <br>
+  <a href="https://github.com/alexmouraable/repository-finder"><img src="https://user-images.githubusercontent.com/38754458/86365069-6881d980-bc4f-11ea-867d-4146d5b827ad.png" alt="Repository Finder" width="400px"></a>
+  <br>
+</h1>
 
-## Development server
+<h4 align="center">Localizador de Repositórios Públicos do GitHub</h4>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<p align="center">
+  <a href="#descricao">Descrição</a> •
+  <a href="#instalacao">Instalação</a> •
+  <a href="#demonstracao">Demonstração</a> •
+  <a href="#tecnologias">Tecnologias</a> •
+  <a href="#licenca">Licença</a>
+</p>
 
-## Code scaffolding
+<img src="https://user-images.githubusercontent.com/38754458/86364831-15a82200-bc4f-11ea-9eb4-04af108eecf1.gif" alt="Repository Finder Slideshow">
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## <a name="descricao"></a> 📜 Descrição
 
-## Build
+O Repository Finder é uma aplicação Angular. Ela detém um layout simples e agradável. A sua finalidade é possibilitar a localização de qualquer repositório público do GitHub.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## <a name="instalacao"></a> 🚀 Instalação
 
-## Running unit tests
+1. Para realizar a instalação da aplicação é necessário certificar-se de possuir o [Node.js](https://nodejs.org/en/), [NPM](https://www.npmjs.com/) e [Angular CLI](https://angular.io/).
+2. Em seguida, é necessário clonar o repositório.
+3. Na raíz da aplicação é necessário executar `npm install` para instalar as suas dependências.
+4. Ótimo! Agora é só executar `ng serve` e acessar a aplicação no endereço a seguir: http://localhost:4200.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## <a name="demonstracao"></a> 🧐 Demonstração
 
-## Running end-to-end tests
+Clique [aqui]() para acessar a aplicação.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## <a name="tecnologias"></a> ⭐ Tecnologias
 
-## Further help
+- Angular
+- CSS
+- HTML
+- JavaScript
+- TypeScript
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## <a name="licenca"></a> 📘 Licença
+
+O Repository Finder está sob os termos da [Licença Apache](https://github.com/alexmouraable/repository-finder/blob/master/LICENSE).  
