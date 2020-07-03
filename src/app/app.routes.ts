@@ -6,6 +6,11 @@ import { RepositoriesPageResolver } from './guards/repositories-page.resolver';
 
 const routes: Routes = [
     {
+        path: "",
+        redirectTo: "/start",
+        pathMatch: "full"
+    },
+    {
         path: "start",
         component: StartComponent
     },
