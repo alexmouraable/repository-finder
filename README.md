@@ -30,7 +30,7 @@ O Repository Finder é uma aplicação Angular. Ela detém um layout simples e a
 
 ## <a name="demonstracao"></a> 🧐 Demonstração
 
-Clique [aqui]() para acessar a aplicação.
+Clique [aqui](https://repository-finder-app.herokuapp.com) para acessar a aplicação.
 
 ## <a name="tecnologias"></a> ⭐ Tecnologias
 
